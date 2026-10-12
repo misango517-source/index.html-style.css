@@ -1,0 +1,151 @@
+*main{
+    margin: 0;
+    padding: 
+    0;
+}
+.main{
+    width: 100%;
+    background-image: url(./austine.jpg) ;
+    background-position: center;
+    background-size: contain;
+    margin: auto;
+    height: 100vh;
+    
+}
+
+.icon .logo:hover{
+    color: blue;
+    
+    transition: 3s;
+    animation: ostin 3s infinite;
+    cursor: pointer;
+    width: 10%;
+}
+@keyframes ostin{
+    0%{
+        transform: rotateY('0deg');
+        
+    }
+    50%{
+        transform: rotateY('180deg');
+        background-color: #ff7200;
+        scale: 0.5;
+    }
+    100%{
+        transform: rotate(360deg);
+        background-color: aquamarine;
+        scale: 0.9;
+    }
+}
+.icon{
+    margin-left: 50px;
+    color: #ff7200;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    font-size: 14px;  
+}
+
+ul li a{
+        text-decoration: none;
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 20px;
+        transition: 0.4s ease-in-out;
+        color: blue;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+h1{
+    font-size: 20px;
+    font-family: Arial;
+    font-weight:bold ;
+}
+
+.container{
+    width: 600px;
+    height: auto;
+    margin-left: 50px;
+}
+
+.paragraph{
+    font-size: 25px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    transition: 0.4s ease-in-out;
+}
+
+.paragraph:hover{
+    color: pink;
+}
+.containerb{
+    border: solid black;
+    width: 250px;
+    height: 200px;
+    margin-left: 900px;
+    margin-bottom: 900px;
+}
+
+.development{
+    color: blue;
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    transition: 0.4s ease-in-out;
+}
+.development:hover{
+    color: red;
+}
+
+.design{
+    color: black;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.course{
+    color: #ff7200;
+    font-size: 30px;
+}
+.containerc{
+position: absolute;
+top: 200px;
+background: transparent;
+right: 60px;
+width: 250px;
+height: 259px;
+display: flex;
+justify-content: center;
+}
+h3{
+    color: red;
+}
+::placeholder{
+    color: black;
+    font-family: Arial;
+}
+
+.login a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial;
+    cursor: pointer;
+}
+@media (min-width:750px) {
+    body{
+        background-color: green;
+    }
+}
